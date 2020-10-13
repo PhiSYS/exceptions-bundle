@@ -1,0 +1,26 @@
+{
+  "name": "dosfarma/exceptions-bundle",
+  "description": "Symfony bundle for dosfarma/exceptions integration.",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Sergio Hernández Martínez",
+      "email": "sergio.hernandez@dosfarma.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^7.4",
+    "dosfarma/exceptions": "dev-master",
+    "symfony/dependency-injection": "^4.4.1|^5.0.1",
+    "symfony/http-kernel": "^4.4"
+  },
+  "require-dev": {
+    "dosfarma/coding-standard": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "DosFarma\\ExceptionsBundle\\": "src/"
+    }
+  }
+}
