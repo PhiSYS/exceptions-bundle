@@ -33,8 +33,7 @@ final class ApiExceptionListenerPass implements CompilerPassInterface
             ],
         );
         $apiExceptionListener
-            ->addTag('kernel.event_listener')
-            ->addTag('kernel.exception')
+            ->addTag('kernel.event_listener', ['event' => 'kernel.exception'])
         ;
 
         $container->addDefinitions(
