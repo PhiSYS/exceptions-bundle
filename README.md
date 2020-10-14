@@ -10,7 +10,7 @@ By default, replace Symfony standard exception response by a JsonResponse, using
 ```json
 {
   "message": "An error has occurred",
-  "error_code": 400123 
+  "error_code": 40001123 
 }
 ```
 
