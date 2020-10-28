@@ -3,14 +3,14 @@ declare(strict_types=1);
 
 namespace DosFarma\ExceptionsBundle\Http\EventListener;
 
-use DosFarma\ExceptionsBundle\Http\Service\JsonApiResponseLoader;
+use DosFarma\ExceptionsBundle\Http\Service\ApiResponseLoader;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 
 class ApiExceptionListener
 {
-    private JsonApiResponseLoader $responseLoader;
+    private ApiResponseLoader $responseLoader;
 
-    public function __construct(JsonApiResponseLoader $responseLoader)
+    public function __construct(ApiResponseLoader $responseLoader)
     {
         $this->responseLoader = $responseLoader;
     }
