@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace DosFarma\ExceptionsBundle\Http\EventListener;
+namespace PhiSYS\ExceptionsBundle\Http\EventListener;
 
-use DosFarma\ExceptionsBundle\Http\Service\ApiResponseLoader;
+use PhiSYS\ExceptionsBundle\Http\Service\ApiResponseLoader;
 use Symfony\Component\HttpKernel\Event\ExceptionEvent;
 
 class ApiExceptionListener

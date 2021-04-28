@@ -1,5 +1,5 @@
-# DosFarma Exceptions Bundle
-Symfony bundle for dosfarma/exceptions integration.
+# PhiSYS Exceptions Bundle
+Symfony bundle for phisys/exceptions integration.
 
 ## ApiExceptionListener
 
@@ -15,4 +15,4 @@ By default, replace Symfony standard exception response by a JsonResponse, using
 ```
 
 You can implement your own ApiResponseLoader with a different json structure, or even with a different Response implementation,
-just by defining it with the service ID `"DosFarma\ExceptionsBundle\Http\Service\ApiResponseLoader"`.
+just by defining it with the service ID `"PhiSYS\ExceptionsBundle\Http\Service\ApiResponseLoader"`.
