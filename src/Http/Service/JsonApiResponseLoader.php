@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace DosFarma\ExceptionsBundle\Http\Service;
+namespace PhiSYS\ExceptionsBundle\Http\Service;
 
-use DosFarma\Exceptions\Api\Domain\ApiException;
+use PhiSYS\Exceptions\Api\Domain\ApiException;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

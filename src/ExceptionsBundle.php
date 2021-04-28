@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace DosFarma\ExceptionsBundle;
+namespace PhiSYS\ExceptionsBundle;
 
-use DosFarma\ExceptionsBundle\Http\DependencyInjection\Compiler\ApiExceptionListenerPass;
+use PhiSYS\ExceptionsBundle\Http\DependencyInjection\Compiler\ApiExceptionListenerPass;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

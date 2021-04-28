@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace DosFarma\ExceptionsBundle\Http\Service;
+namespace PhiSYS\ExceptionsBundle\Http\Service;
 
 use Symfony\Component\HttpFoundation\Response;
 

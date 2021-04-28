@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
 
-namespace DosFarma\ExceptionsBundle\Http\DependencyInjection\Compiler;
+namespace PhiSYS\ExceptionsBundle\Http\DependencyInjection\Compiler;
 
-use DosFarma\ExceptionsBundle\Http\EventListener\ApiExceptionListener;
-use DosFarma\ExceptionsBundle\Http\Service\JsonApiResponseLoader;
+use PhiSYS\ExceptionsBundle\Http\EventListener\ApiExceptionListener;
+use PhiSYS\ExceptionsBundle\Http\Service\JsonApiResponseLoader;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;
@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Reference;
 
 final class ApiExceptionListenerPass implements CompilerPassInterface
 {
-    const API_RESPONSE_LOADER_SERVICE_ID = 'DosFarma\ExceptionsBundle\Http\Service\ApiResponseLoader';
+    const API_RESPONSE_LOADER_SERVICE_ID = 'PhiSYS\ExceptionsBundle\Http\Service\ApiResponseLoader';
 
     public function process(ContainerBuilder $container)
     {
