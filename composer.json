@@ -16,7 +16,7 @@
   "license": "MIT",
   "require": {
     "php": "^7.4|^8",
-    "phisys/exceptions": "dev-master",
+    "phisys/exceptions": "^1",
     "symfony/dependency-injection": "^4.4.1|^5.0.1",
     "symfony/http-kernel": "^4.4"
   },
